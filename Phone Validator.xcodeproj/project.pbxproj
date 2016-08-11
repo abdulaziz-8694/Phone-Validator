@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2320FF7A34EA49F1D5044BFA /* Pods_Phone_ValidatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195EFE273165CA95040AC749 /* Pods_Phone_ValidatorUITests.framework */; };
+		36CFF83CCC2B8DF12CDE6DD3 /* Pods_Phone_Validator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B791D6369440216F33CB5C5 /* Pods_Phone_Validator.framework */; };
 		89E560AC1D5CA84200EF2A45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E560AB1D5CA84200EF2A45 /* AppDelegate.swift */; };
 		89E560AE1D5CA84200EF2A45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E560AD1D5CA84200EF2A45 /* ViewController.swift */; };
 		89E560B11D5CA84200EF2A45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E560AF1D5CA84200EF2A45 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		89E560B61D5CA84200EF2A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E560B41D5CA84200EF2A45 /* LaunchScreen.storyboard */; };
 		89E560C11D5CA84200EF2A45 /* Phone_ValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E560C01D5CA84200EF2A45 /* Phone_ValidatorTests.swift */; };
 		89E560CC1D5CA84200EF2A45 /* Phone_ValidatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E560CB1D5CA84200EF2A45 /* Phone_ValidatorUITests.swift */; };
+		B199BD486672EB1164A99695 /* Pods_Phone_ValidatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313A24715C7204AE31815013 /* Pods_Phone_ValidatorTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B791D6369440216F33CB5C5 /* Pods_Phone_Validator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Validator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		195EFE273165CA95040AC749 /* Pods_Phone_ValidatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_ValidatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		313A24715C7204AE31815013 /* Pods_Phone_ValidatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_ValidatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BBE4DED2388087F80698CB /* Pods-Phone Validator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Validator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Validator/Pods-Phone Validator.release.xcconfig"; sourceTree = "<group>"; };
+		5E7CC7B14481A1F8E48F29E0 /* Pods-Phone ValidatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone ValidatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone ValidatorTests/Pods-Phone ValidatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		637A09E8D6AB77C63ABC9F34 /* Pods-Phone ValidatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone ValidatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone ValidatorTests/Pods-Phone ValidatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A1EC0167066790F39F9D061 /* Pods-Phone ValidatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone ValidatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone ValidatorUITests/Pods-Phone ValidatorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		89E560A81D5CA84200EF2A45 /* Phone Validator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone Validator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E560AB1D5CA84200EF2A45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89E560AD1D5CA84200EF2A45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		89E560C71D5CA84200EF2A45 /* Phone ValidatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Phone ValidatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E560CB1D5CA84200EF2A45 /* Phone_ValidatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone_ValidatorUITests.swift; sourceTree = "<group>"; };
 		89E560CD1D5CA84200EF2A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74E6931149BAFF87EAA249D /* Pods-Phone Validator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Validator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Validator/Pods-Phone Validator.debug.xcconfig"; sourceTree = "<group>"; };
+		F7E74C65D87DF3710ADA7D53 /* Pods-Phone ValidatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone ValidatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone ValidatorUITests/Pods-Phone ValidatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36CFF83CCC2B8DF12CDE6DD3 /* Pods_Phone_Validator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B199BD486672EB1164A99695 /* Pods_Phone_ValidatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2320FF7A34EA49F1D5044BFA /* Pods_Phone_ValidatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45A56E4F3E2572B020E285D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B791D6369440216F33CB5C5 /* Pods_Phone_Validator.framework */,
+				313A24715C7204AE31815013 /* Pods_Phone_ValidatorTests.framework */,
+				195EFE273165CA95040AC749 /* Pods_Phone_ValidatorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		89E5609F1D5CA84200EF2A45 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				89E560BF1D5CA84200EF2A45 /* Phone ValidatorTests */,
 				89E560CA1D5CA84200EF2A45 /* Phone ValidatorUITests */,
 				89E560A91D5CA84200EF2A45 /* Products */,
+				91611C5726E009CF4306A53D /* Pods */,
+				45A56E4F3E2572B020E285D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = "Phone ValidatorUITests";
 			sourceTree = "<group>";
 		};
+		91611C5726E009CF4306A53D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A74E6931149BAFF87EAA249D /* Pods-Phone Validator.debug.xcconfig */,
+				49BBE4DED2388087F80698CB /* Pods-Phone Validator.release.xcconfig */,
+				637A09E8D6AB77C63ABC9F34 /* Pods-Phone ValidatorTests.debug.xcconfig */,
+				5E7CC7B14481A1F8E48F29E0 /* Pods-Phone ValidatorTests.release.xcconfig */,
+				F7E74C65D87DF3710ADA7D53 /* Pods-Phone ValidatorUITests.debug.xcconfig */,
+				6A1EC0167066790F39F9D061 /* Pods-Phone ValidatorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89E560D01D5CA84200EF2A45 /* Build configuration list for PBXNativeTarget "Phone Validator" */;
 			buildPhases = (
+				779A56830960B1AFD67E3B19 /* [CP] Check Pods Manifest.lock */,
 				89E560A41D5CA84200EF2A45 /* Sources */,
 				89E560A51D5CA84200EF2A45 /* Frameworks */,
 				89E560A61D5CA84200EF2A45 /* Resources */,
+				9BA9091172D7732C9D7A9AC4 /* [CP] Embed Pods Frameworks */,
+				FD234998A12190910ACEA66B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89E560D31D5CA84200EF2A45 /* Build configuration list for PBXNativeTarget "Phone ValidatorTests" */;
 			buildPhases = (
+				07A8A25E880E654A6B85C874 /* [CP] Check Pods Manifest.lock */,
 				89E560B81D5CA84200EF2A45 /* Sources */,
 				89E560B91D5CA84200EF2A45 /* Frameworks */,
 				89E560BA1D5CA84200EF2A45 /* Resources */,
+				7EF40D52368010848486BDAA /* [CP] Embed Pods Frameworks */,
+				6C1D9BFE86E314EB9B017DC9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89E560D61D5CA84200EF2A45 /* Build configuration list for PBXNativeTarget "Phone ValidatorUITests" */;
 			buildPhases = (
+				75242286F099D84DA788D7C5 /* [CP] Check Pods Manifest.lock */,
 				89E560C31D5CA84200EF2A45 /* Sources */,
 				89E560C41D5CA84200EF2A45 /* Frameworks */,
 				89E560C51D5CA84200EF2A45 /* Resources */,
+				D744DFD9B23EC8AB5907E117 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +298,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07A8A25E880E654A6B85C874 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C1D9BFE86E314EB9B017DC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone ValidatorTests/Pods-Phone ValidatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75242286F099D84DA788D7C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		779A56830960B1AFD67E3B19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7EF40D52368010848486BDAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone ValidatorTests/Pods-Phone ValidatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BA9091172D7732C9D7A9AC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Validator/Pods-Phone Validator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D744DFD9B23EC8AB5907E117 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone ValidatorUITests/Pods-Phone ValidatorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD234998A12190910ACEA66B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Validator/Pods-Phone Validator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		89E560A41D5CA84200EF2A45 /* Sources */ = {
@@ -399,6 +570,7 @@
 		};
 		89E560D11D5CA84200EF2A45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A74E6931149BAFF87EAA249D /* Pods-Phone Validator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Phone Validator/Info.plist";
@@ -410,6 +582,7 @@
 		};
 		89E560D21D5CA84200EF2A45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49BBE4DED2388087F80698CB /* Pods-Phone Validator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Phone Validator/Info.plist";
@@ -421,6 +594,7 @@
 		};
 		89E560D41D5CA84200EF2A45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 637A09E8D6AB77C63ABC9F34 /* Pods-Phone ValidatorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Phone ValidatorTests/Info.plist";
@@ -433,6 +607,7 @@
 		};
 		89E560D51D5CA84200EF2A45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7CC7B14481A1F8E48F29E0 /* Pods-Phone ValidatorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Phone ValidatorTests/Info.plist";
@@ -445,6 +620,7 @@
 		};
 		89E560D71D5CA84200EF2A45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E74C65D87DF3710ADA7D53 /* Pods-Phone ValidatorUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Phone ValidatorUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +632,7 @@
 		};
 		89E560D81D5CA84200EF2A45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A1EC0167066790F39F9D061 /* Pods-Phone ValidatorUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Phone ValidatorUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +661,7 @@
 				89E560D21D5CA84200EF2A45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89E560D31D5CA84200EF2A45 /* Build configuration list for PBXNativeTarget "Phone ValidatorTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +670,7 @@
 				89E560D51D5CA84200EF2A45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89E560D61D5CA84200EF2A45 /* Build configuration list for PBXNativeTarget "Phone ValidatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +679,7 @@
 				89E560D81D5CA84200EF2A45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
