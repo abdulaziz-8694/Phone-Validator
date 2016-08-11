@@ -58,8 +58,13 @@ class ViewController: UIViewController {
 
     }
     
+    //Calls the dialer. Currently fails.
     func goToDialer(number: String){
         print("Valid")
+        let phoneNumber = ("tel://\(number)")
+        let phoneURL: NSURL = NSURL(string: phoneNumber)!
+        print(UIApplication.sharedApplication().canOpenURL(phoneURL))
+        UIApplication.sharedApplication().openURL(phoneURL)
     }
     
 }
